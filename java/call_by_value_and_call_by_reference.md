@@ -39,6 +39,9 @@
 - wrapper class를 파라미터로 받아서 swap하면 동작하지 않음.
 - wrapper class 는 Heap area에 저장이되는게 아닌건지?
   - [Java_data_type](../java/data_type.md) 참고 
+  - Heap area에 저장은 되나, unboxing한 값을 참조하여 수정할 수 없음.
+    - 보통의 wrapper class 는 immutable 하기 때문
+    - [https://stackoverflow.com/questions/12370544/why-are-java-wrapper-classes-immutable](https://stackoverflow.com/questions/12370544/why-are-java-wrapper-classes-immutable)
 
 ## 참고
 
