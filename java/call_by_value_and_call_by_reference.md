@@ -37,6 +37,8 @@
 ## wrapper class 일 때는 어떻게 동작하는지?
 
 - wrapper class를 파라미터로 받아서 swap하면 동작하지 않음.
+- wrapper class 는 Heap area에 저장이되는게 아닌건지?
+  - [Java_data_type](../java/data_type.md) 참고 
 
 ## 참고
 
