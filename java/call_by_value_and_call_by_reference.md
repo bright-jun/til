@@ -42,6 +42,10 @@
   - Heap area에 저장은 되나, unboxing한 값을 참조하여 수정할 수 없음.
     - 보통의 wrapper class 는 immutable 하기 때문
     - [https://stackoverflow.com/questions/12370544/why-are-java-wrapper-classes-immutable](https://stackoverflow.com/questions/12370544/why-are-java-wrapper-classes-immutable)
+  - Integer는  래퍼클래스이므로 힙에 생성, 값을 바꿀수 없는 클래스
+    - swap에서 참조가 바뀌지만, 값을 바꿀순 없음.
+    - 메소드가 종료되면 스택의 모든값은 사라지고 다시메인으로 와서 찍으면 원래값
+    - [https://aroundck.tistory.com/2399](https://aroundck.tistory.com/2399)
 
 ## 참고
 
