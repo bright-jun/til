@@ -128,4 +128,4 @@
 - 열혈 Java 프로그래밍, 윤성우 저
 - [https://brunch.co.kr/@kd4/6](https://brunch.co.kr/@kd4/6)
 - [http://alecture.blogspot.com/2011/05/abstract-class-interface.html](http://alecture.blogspot.com/2011/05/abstract-class-interface.html)
-- [https://www.youtube.com/watch?v=T1BJzC9xb0g](https://www.youtube.com/watch?v=T1BJzC9xb0g)
+- [[10분 테코톡] 알파의 인터페이스](https://www.youtube.com/watch?v=T1BJzC9xb0g)
