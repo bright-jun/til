@@ -32,6 +32,14 @@
       - `Flawed Supplier`가 필요하지 않으면 삭제할 수 있게 됨
       - 마이그레이션에 더 이상 필요하지 않은 `Abstraction Layer`을 삭제할 수도 있음
 
+- 특징
+  - `Abstraction Layer`를 통해 시스템에 여러 구현이 공존할 수 있음
+  - `Abstraction`과 `Multiple Implementations`를 이용하여 한 구현에서 다른 구현으로 마이그레이션을 수행
+  - `Continuous Delivery`
+    - 교체하는동안 항상 시스템이 항상 올바르게 구축되고 실행되는지 확인 가능
+
 ## 참고
 
+- [CONTINUOUS DELIVERY](https://martinfowler.com/tags/continuous%20delivery.html)
+- [VERSION CONTROL](https://martinfowler.com/tags/version%20control.html)
 - [https://martinfowler.com/bliki/BranchByAbstraction.html](https://martinfowler.com/bliki/BranchByAbstraction.html)
