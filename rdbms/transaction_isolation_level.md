@@ -1,0 +1,12 @@
+# Transaction Isolation Level(트랜잭션 격리 수준)
+
+![](https://miro.medium.com/max/475/1*hEpucQJzGE6K7D9M_0bEVw.gif)
+
+- READ UNCOMMITTED
+- READ COMMITTED
+- REPEATABLE READ
+- SERIALIZABLE, HOLDLOCK
+
+## 참고
+
+- [https://velog.io/@guswns3371/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98-%EA%B2%A9%EB%A6%AC%EC%88%98%EC%A4%80](https://velog.io/@guswns3371/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98-%EA%B2%A9%EB%A6%AC%EC%88%98%EC%A4%80)
