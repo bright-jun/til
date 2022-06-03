@@ -68,13 +68,7 @@ class RealExample {
   }
 }
 ```
-- 출력
-```
-Loading    HiRes_10MB_Photo1
-Displaying HiRes_10MB_Photo1
-Loading    HiRes_10MB_Photo2
-Displaying HiRes_10MB_Photo2
-```
+
 - why?
   - 예를 들어 용량이 큰 이미지와 글이 같이 있는 문서를 화면에 띄운다고 가정
     - 텍스트는 용량이 작아서 빠르게 로딩
@@ -86,8 +80,23 @@ Displaying HiRes_10MB_Photo2
   - 각각 로딩이 될 때마다 출력하는 방식이 사용자 친화적
     - 이와 같은 방식을 가지려면 텍스트 처리용 프로세스, 이미지 처리용 프로세스를 별도로 운영
   - `ProxyExample`클래스에서 `RealImage`클래스에 직접 접근하지 않고 `ProxyImage`클래스에서 객체를 생성하여 대신 일을 수행하는걸 확인할 수 있다.
-  - TODO
-    - `RealExample`클래스에서 `RealImage`클래스에 직접 접근하여 객체를 생성하여 대신 일을 수행하는것과 어떤 차이가 있는지?.
+    - ```
+      ProxyExample
+      
+      Loading    HiRes_10MB_Photo1
+      Displaying HiRes_10MB_Photo1
+      Loading    HiRes_10MB_Photo2
+      Displaying HiRes_10MB_Photo2
+      ```
+  - `RealExample`클래스에서 `RealImage`클래스에 직접 접근하여 객체를 생성하여 대신 일을 수행하는것
+    - ```
+      RealExample
+
+      Loading   HiRes_10MB_Photo1
+      Loading   HiRes_10MB_Photo2
+      Displaying HiRes_10MB_Photo1
+      Displaying HiRes_10MB_Photo2
+      ```
 
 - 장점
   - 사이즈가 큰 객체가 로딩되기 전에도 프록시를 통해 참조를 할 수 있다.
