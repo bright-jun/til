@@ -6,9 +6,9 @@ $$
 \cfrac{(time_{old} - time_{new})}{time_{old}} \times 100(\%)
 $$
 
-$**time_{old} = 10ms, time_{new} = 4ms**$
+$time_{old} = 10ms, time_{new} = 4ms$
 
-$**\cfrac{(10 - 4)}{10} \times 100 = 60\%$**
+$\cfrac{(10 - 4)}{10} \times 100 = 60\%$
 
 > There is a 60% reduction in time.
 > 
@@ -25,9 +25,9 @@ $$
 \cfrac{(performance_{new} - performance_{old})}{performance_{old}} \times 100(\%) \\ = \cfrac{(time_{old} - time_{new})}{time_{new}} \times 100(\%)
 $$
 
-$**time_{old} = 10ms, time_{new} = 4ms**$
+$time_{old} = 10ms, time_{new} = 4ms$
 
-$**\cfrac{(10 - 4)}{4} \times 100 = 150\%**$
+$\cfrac{(10 - 4)}{4} \times 100 = 150\%$
 
 > There is a 150% increase in performance.
 > 
@@ -35,16 +35,16 @@ $**\cfrac{(10 - 4)}{4} \times 100 = 150\%**$
 # 성능 비교
 
 $$
-⁍
+performance\propto\cfrac{1}{time}
 $$
 
 $$
 \cfrac{performance_{new}}{performance_{old}} = \cfrac{time_{old}}{time_{new}}
 $$
 
-$**time_{old} = 10ms, time_{new} = 4ms**$
+$time_{old} = 10ms, time_{new} = 4ms$
 
-$**\cfrac{10}{4} = 2.5$**
+$\cfrac{10}{4} = 2.5$
 
 > Your new time is 2.5x faster.
 >
