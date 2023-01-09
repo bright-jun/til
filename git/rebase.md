@@ -43,7 +43,13 @@ Interactively Rebase 모드에서 사용할 수 있는 명령어들
 커밋 히스토리 형상을 재구조화해서 푸쉬해야 하므로 force push 를 해서 히스토리 자체를 덮어씌워야 한다. 그렇기에 해당 기능은 협업 개발 중인 main branch에서
 사용하는 것은 지양해야 한다.
 
+## [interactively-rebase-from-here-feature-is-disabled](https://youtrack.jetbrains.com/issue/IDEA-203376/interactively-rebase-from-here-feature-is-disabled)
 
+- protected branch 에서는 해당 기능을 사용할 수 없음
+- GitHub Setting
+    - https://help.github.com/articles/about-protected-branches/
+- Intellij Setting
+    - Preferences > Version Control > Git > Push > Protected Branches
 
 ## 참고
 
