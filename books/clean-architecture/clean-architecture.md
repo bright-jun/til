@@ -2,14 +2,14 @@
 
 - by Robert C. Martin
 
-# [1부 소개](./part1/Part1.md)
+# [1부 소개](part1/Part1.md)
 
-- ## [1장 설계와 아키텍처란?](./part1/Chapter01.md)
-- ## [2장 두 가지 가치에 대한 이야기](./part1/Chapter02.md)
+- ## [1장 설계와 아키텍처란?](part1/Chapter01.md)
+- ## [2장 두 가지 가치에 대한 이야기](part1/Chapter02.md)
 
 # 2부 벽돌부터 시작하기: 프로그래밍 패러다임
 
-- ## [3장 패러다임 개요](./part2/Chapter03.md)
+- ## [3장 패러다임 개요](part2/Chapter03.md)
 - ## 4장 구조적 프로그래밍
 - ## 5장 객체 지향 프로그래밍
 - ## 6장 함수형 프로그래밍
