@@ -1,0 +1,2 @@
+1. git Automatically include code reviewers 반영하기
+- https://goodgid.github.io/Github-CODEOWNERS/

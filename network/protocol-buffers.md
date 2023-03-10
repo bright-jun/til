@@ -41,4 +41,5 @@ Figure 1. Protocol buffers workflow
 
 - [https://developers.google.com/protocol-buffers](https://developers.google.com/protocol-buffers)
 - [https://developers.google.com/protocol-buffers/docs/overview](https://developers.google.com/protocol-buffers/docs/overview)
+- [https://docs.microsoft.com/ko-kr/dotnet/architecture/grpc-for-wcf-developers/protocol-buffers](https://docs.microsoft.com/ko-kr/dotnet/architecture/grpc-for-wcf-developers/protocol-buffers)
 - [https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C_%EB%B2%84%ED%8D%BC](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C_%EB%B2%84%ED%8D%BC)
